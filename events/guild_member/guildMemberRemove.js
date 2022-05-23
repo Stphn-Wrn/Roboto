@@ -9,7 +9,7 @@ module.exports = {
     let canvas = Canvas.createCanvas(1024, 500);
 
     ctx = canvas.getContext('2d');
-    let background = await Canvas.loadImage('./src/img/background.jpg');
+    let background = await Canvas.loadImage('./src/img/rhayko.jpg');
     ctx.drawImage(background, 0, 0, 1024, 500);
 
     // Taille font - Style de la font
