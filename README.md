@@ -1,7 +1,7 @@
 # Roboto
 
 Il s'agit ici d'un bot discord développer en Node avec l'API discord. 
-Le but était de créer un bot de A à Z à l'aide d'un tuto YouTube, à la suite de quoi j'ajoute/améliore des/les fonctionnalités.
+Le but était de créer un bot de A à Z à l'aide d'un tuto YouTube afin de débuter Node. Lors des futures version, j'ajouterais de nouvelles fonctionnalités et modifierais celles déjà existantes. 
 
 
 Les commandes : 
