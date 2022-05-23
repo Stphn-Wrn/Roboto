@@ -31,13 +31,13 @@ module.exports = {
     examples: ['rules'],
     description: 'La commande rules permet d\'envoyer l\'embed du réglement.',
     async run(client, message, args){ 
-      const fetchGuild = await client.getGuild(message.guild);
-      const rulesChannel = client.channels.cache.get(fetchGuild.rulesChannel)
+      // const fetchGuild = await client.getGuild(message.guild);
+      // const rulesChannel = client.channels.cache.get(fetchGuild.rulesChannel)
 
-      await rulesChannel.send({embeds: [rulesEmbed], components: [buttons]})
+      await message.channel.send({embeds: [rulesEmbed], components: [buttons]})
      },
      async runInteraction(client, interaction){
-      //  await interaction.reply({embeds: [rulesEmbed], components: [buttons]})
+        // await interaction.reply({embeds: [rulesEmbed], components: [buttons]})
      }
     
 }
