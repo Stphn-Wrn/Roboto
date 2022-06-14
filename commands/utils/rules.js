@@ -18,8 +18,8 @@ const buttons = new MessageActionRow()
 
   const rulesEmbed = new MessageEmbed()
   .setTitle('Acceptez le règlement pour accéder à l\'intégralité du serveur')
-   .setDescription(`michel@michel.michel`)
-   .setFooter({ text: '- michel'})
+   .setDescription(`Michel`)
+   .setFooter({ text: '-Michel !'})
   .setTimestamp()
 
 module.exports = {

@@ -10,32 +10,32 @@ const selectMenu = new MessageActionRow()
       .addOptions([
         {
           label: '- CSS',
-          value: '950379979898757191',
+          value: '',
           emoji: '🔫',
         },
         {
           label: '- CS:GO',
-          value: '950379972147679293',
+          value: '',
           emoji: '💣',
         },
         {
           label: '- Horror Games',
-          value: '950379976719499264',
+          value: '',
           emoji: '🔞',
         },
         {
           label: '- Lost Ark',
-          value: '950379974840430662',
+          value: '',
           emoji: '🏹',
         },
         {
           label: '- Among Us',
-          value: '950379978376237086',
+          value: '',
           emoji: '🔪',
         },
         {
           label: '- Fall Guys',
-          value: '950379971682119770',
+          value: '',
           emoji: '👑',
         },
       ])
