@@ -24,28 +24,28 @@ const buttons = new MessageActionRow()
     // .setStyle('DANGER'),
     
     new MessageButton()
-    .setURL('https://twitch.tv/rhaykoza_')
-    .setLabel('🟣 Twitch 🟣')
+    .setURL('')
+    .setLabel('michel')
     .setStyle('LINK'),
  
     new MessageButton()
-    .setURL('https://www.youtube.com/user/shymreborn')
-    .setLabel('🔴 Youtube 🔴')
+    .setURL('')
+    .setLabel('michel')
     .setStyle('LINK'),
 
     new MessageButton()
-    .setURL('https://twitter.com/Rhaykoza')
-    .setLabel('🔵 Twitter 🔵')
+    .setURL('')
+    .setLabel('michel')
     .setStyle('LINK'),
 
     new MessageButton()
-    .setURL('https://www.tiktok.com/@yasmine_does_art')
-    .setLabel('🎵 Tiktok 🎵')
+    .setURL('')
+    .setLabel('michel')
     .setStyle('LINK'),
     
     new MessageButton()
-    .setURL('https://www.instagram.com/yasmine_does_art/')
-    .setLabel('📷 Instagram 📷')
+    .setURL('')
+    .setLabel('michel')
     .setStyle('LINK'),
   )
 
