@@ -26,19 +26,19 @@ const buttons = new MessageActionRow()
   )
 
 module.exports = {
-    name: 'social-link',
+    name: 'foo',
     category: 'utils',
     permissions: ['SEND_MESSAGES'],
     ownerOnly: false,
-    usage: 'social-link',
-    examples: ['social-link'],
-    description: 'Affiche les réseaux sociaux.',
+    usage: 'foo',
+    examples: ['foo'],
+    description: 'foo',
     async run(client, message, args){ 
       const fetchGuild = await client.getGuild(message.guild);
       const socialChannel = client.channels.cache.get(fetchGuild.socialChannel)
-      await socialChannel.send({content : '', components: [buttons]})
+      await socialChannel.send({content : 'foo', components: [buttons]})
     },
     async runInteraction(client, interaction){
-      await interaction.reply({content : '', ephemeral: true})
+      await interaction.reply({content : 'Cette commande est uniquement disponible avec le préfix : !', ephemeral: true})
     }
 }
